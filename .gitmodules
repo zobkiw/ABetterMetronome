@@ -1,0 +1,3 @@
+[submodule "TheAmazingAudioEngine"]
+	path = TheAmazingAudioEngine
+	url = git@github.com:TheAmazingAudioEngine/TheAmazingAudioEngine.git
