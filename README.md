@@ -18,6 +18,7 @@ You could easily expand and/or optimize this example in a number of ways, some i
 * handle rates other than 44100
 * it is assumed that the frames_between_beats will be greater than the number of samples actually used to play the click - this shouldn't be a problem for standard tempos and short click sounds. Experiment with this by setting kMaxTempo to extremely large numbers and see what happens.
 * instead of looping through every frame, you could easily keep track of the number of frames requested in any particular call to the block and if you won't cross the next_beat_frame in the current call, increment the total_frames count, return from the block and try again in the next call.
+* add swing
  
 Please feel free to comment and make suggestions for other ways to improve this. I hope it helps somebody make the next great metronome app!
 
